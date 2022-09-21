@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: hotpink;
+}
+.title{margin:25px;
+font-size: 3rem;
+font-family: 'Henny Penny';}
+.navlogo{
+  margin-bottom:10px;
+}
+.navele {
+  margin: 25px;
+  font-size: 1rem;
+  font-family: 'Henny Penny';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.heropic{
+  width: 100%;
+   height: auto;
+  margin-top: 0px;;
+}
+.heropic3 {
+  width: 20%;
+  height: 10%;
+  position: relative;
+ left:100px;
+  top: 25px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+.herotext2 {
+  font-family: 'Henny Penny';
+  color: blanchedalmond;
+  margin: 25px;
+  position: absolute;
+  top: 925px;
+  font-size: 2vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+    .herotext3 {
+      font-family: 'Henny Penny';
+      color: blanchedalmond;
+      margin: 25px;
+      font-size: 3vw;
+      position: absolute;
+        top: 1125px;
+        font-size: 2vw;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
